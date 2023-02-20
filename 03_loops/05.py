@@ -1,21 +1,15 @@
-mylist1 = [100, 20, 30, 40]
-mylist2 = [10, 50, 60, 90, 20]
-if mylist1[1] in mylist2:
-    print("element are overlooping")
-else:
-    print("elements are not overlooping")
 
-val = 104
-mylist = [100, 210, 430, 840, 108]
-if val not in mylist:
-    print("value is not present in mylist")
-else:
-    print("value is present in mylist")
+def arithmetic():
+    number1 = int(input("Enter first number : "))
+    number2 = int(input("Enter second number : "))
+
+    add = number1 + number2
+    sub = number1 - number2
+    mod = number1 % number2
+    div = number1 / number2
+    mult = number1 * number2
+
+    print(f"Result (add {add})\n (sub{sub})\n {mod}\n{div}\n{mult}")
 
 
-dlist = [1, 2, 3, 4, 5, 6]
-k = 7
-if k in dlist:
-    print("found")
-else:
-    print("NOT")
+arithmetic()
