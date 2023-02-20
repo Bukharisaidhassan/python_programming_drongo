@@ -1,9 +1,8 @@
-print("hello python \n")
+def multiple():
+    num1 = int(input("Enter first number:"))
+    num2 = int(input("Enter second number:"))
+    my_multi = num1 * num2
+    print("Multibilication is ", my_multi)
 
-user_name =input("Enter your name :")
-print(user_name)
-print(f"Your name is "+user_name)
 
-phone_number = input("Enter phone_number")
-print(phone_number)
-print(f"Your phone_number"+phone_number)
+multiple()
