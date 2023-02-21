@@ -7,7 +7,9 @@ def simpleif():
         print("First input is greater")
 
     if first_input < second_input:
-        print("Second input is greater")    
+        print("Second input is greater")   
+    else:
+        print("NONE")     
 
 
 def bb():
