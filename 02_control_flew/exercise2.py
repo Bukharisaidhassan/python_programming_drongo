@@ -6,4 +6,8 @@ def simpleif():
     if first_input < second_input:
         print("first")
 
+def name(**name):
+    print(name, "hello", name, "Hey")         
 
+
+name()
