@@ -13,7 +13,7 @@ def items():
         total = cost1 + cost2
         print(total)
         print(disc)
-        print(net)
+        
 
 items()
 
