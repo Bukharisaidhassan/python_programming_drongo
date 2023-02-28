@@ -3,6 +3,8 @@ def div():
     for item in numbers:
         if item < 24:
             print(item)
+        elif   item > 14:
+            print(item) 
 
 
 div()
