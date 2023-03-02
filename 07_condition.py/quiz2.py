@@ -5,20 +5,68 @@ def get_discount():
 
     item2 = int(input("Enter sale item : "))
 
-    amout = item1 + item2
+    amount = item1 + item2
+    print("Total amount of two items is : ", amount)
 
-
-    if (amout > 0):
-        if (amout <= 10000):
-            disc = amout * 0.02
-        elif amout <= 15000:
-            disc = amout * 0.03
-        elif amout <= 20000:
-            disc = amout * 0.04
+    if (amount > 0):
+        if (amount <= 10000):
+            disc = amount * 0.02
+        elif amount <= 15000:
+            disc = amount * 0.03
+        elif amount <= 20000:
+            disc = amount * 0.04
 
         else:
-            disc = 0.05 * amout
+            disc = 0.05 * amount
         print("Discount : ", disc)
-        print("Net pay : ", amout - disc)
+        print("Net pay : ", amount - disc)
 
 get_discount()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
